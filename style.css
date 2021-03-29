@@ -1,1 +1,73 @@
+.section-container {
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 60px 15px;
+}
 
+.about-header h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: black 4px solid;
+    width: 85px;
+    margin: auto;
+}
+
+.about-section {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.about-section .image-about-section .copy-about-section {
+    flex: auto;
+    margin: auto 0;
+}
+
+.image-about-section {
+    padding: 0 50px 0 0;
+}
+
+.copy-about-section {
+    font-size: 12px;
+}
+
+.portofolio-header h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: black 4px solid;
+    width: 140px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.portofolio-section {
+    padding: 0 0 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.portofolio-section .image-portofolio-section {
+    flex: auto;
+    margin: auto 0;
+    max-width: 100%;
+}
+
+.image-portofolio-section {
+    padding: 0 20px 0 0;
+}
+
+img {
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    max-height:100%
+}
